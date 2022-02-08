@@ -5,7 +5,7 @@ export default function Header() {
       <div className="navbar">
         <a className="active" href="#"><i className="fa fa-fw fa-home"></i><span> Home</span></a>
         <a href="#aboutus"><i className="fa fa-fw fa-address-card"></i> <span> About Us</span></a>
-        <a href="#careers"><i className="fa fa-fw fa-user-md"></i><span> Carrers</span></a>
+        <a href="#careers"><i className="fa fa-fw fa-user-md"></i><span> Careers</span></a>
         <a href="#services"><i className="fa fa-fw fa-concierge-bell"></i> <span> Services</span></a>
         <a href="#contactus"><i className="fa fa-fw fa-phone-laptop"></i><span> Contact Us</span></a>
       </div>
