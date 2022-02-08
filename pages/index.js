@@ -4,7 +4,6 @@ import Footer from '@components/Footer';
 import About from '@components/About';
 import Services from '@components/Services';
 import Contactus from '@components/Contactus';
-import Careersus from '../components/Careersus';
 
 export default function Home() {
   return (
@@ -21,7 +20,6 @@ export default function Home() {
       <main>
         <Header />
         <About />
-        <Careersus />
         <Services />
         <Contactus />
       </main>
