@@ -2,7 +2,7 @@ import Head from 'next/head';
 import Header from '@components/Header';
 import Footer from '@components/Footer';
 import About from '@components/About';
-import Carrers from '@components/Careers';
+import Careers from '@components/Careers';
 import Services from '@components/Services';
 import Contactus from '@components/Contactus';
 
@@ -21,7 +21,7 @@ export default function Home() {
       <main>
         <Header />
         <About />
-        <Carrers />
+        <Careers />
         <Services />
         <Contactus />
       </main>
