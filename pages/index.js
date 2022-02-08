@@ -2,9 +2,9 @@ import Head from 'next/head';
 import Header from '@components/Header';
 import Footer from '@components/Footer';
 import About from '@components/About';
-import Careers from '@components/Careers';
 import Services from '@components/Services';
 import Contactus from '@components/Contactus';
+import Careers from '@components/Careers';
 
 export default function Home() {
   return (
