@@ -4,12 +4,6 @@ export default function Services() {
             <h1 className="text-center">Services</h1>
             <img src='https://idctechnologies.com/images/services/banner.jpg' />
             <p>At TEKSERVS, we understand the evolving business needs when it comes to IT. With our years of experience, we help you with bespoke solutions under managed IT services, IT staffing and recruiting.</p>
-            <ul>
-                <li>Workforce Solutions</li>
-                <li>Digital Services</li>
-                <li>Application Services</li>
-                <li>Managed Services</li>
-            </ul>
             <div>
                 <h3>Cloud Solutions</h3>
                 <p><strong>Scale to the cloud, to scale up your business.</strong></p>
