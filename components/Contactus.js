@@ -1,6 +1,6 @@
 export default function Contactus() {
     const styles = {
-        "margin-bottom": "16px"
+        "marginBottom": "16px"
     }
     return (
         <div className="box-container" id="contactus">
