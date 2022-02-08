@@ -1,4 +1,4 @@
-export default function Careers() {
+export default function Careersus() {
     return (
         <div className="box-container" id="careers">
             <h1 className="text-center">Careers</h1>
