@@ -89,3 +89,33 @@ p {
 .margin32px {
   margin: 32px;
 }
+
+.show-mobile {
+  display: none;
+}
+.show-desktop {
+  display: block;
+}
+
+.fullwidth {
+  width: 100%;
+}
+.displayinlinegrid {
+  display: inline-grid;
+}
+.displaynone {
+  display: none;
+}
+/*MOBILE*/
+
+@media screen and (max-width: 640px) {
+  .show-mobile {
+    display: block;
+  }
+  .show-desktop {
+    display: none;
+  }
+  main {
+    padding: 0 0 5rem 0;
+  }
+}
