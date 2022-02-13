@@ -27,13 +27,13 @@ export default function Header() {
   return (
     <>
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
-      <nav class="navbar navbar-inverse navbar-fixed-top show-desktop" style={{ fontFamily: '"Muller",sans-serif' }}>
-        <div class="container-fluid">
-          <div class="navbar-header">
-            <a class="navbar-brand" href="#">TEKSERVS</a>
+      <nav className="navbar navbar-inverse navbar-fixed-top show-desktop" style={{ fontFamily: '"Muller",sans-serif' }}>
+        <div className="container-fluid">
+          <div className="navbar-header">
+            <a className="navbar-brand" href="#">TEKSERVS</a>
           </div>
-          <ul class="nav navbar-nav" style={{ float: "right" }}>
-            <li class="active" ><a href="#" >Home</a></li>
+          <ul className="nav navbar-nav" style={{ float: "right" }}>
+            <li className="active" ><a href="#" >Home</a></li>
             <li><a href="#aboutus" >About Us</a></li>
             <li><a href="#careers" >Careers</a></li>
             <li><a href="#contactus" >Contact Us</a></li>
