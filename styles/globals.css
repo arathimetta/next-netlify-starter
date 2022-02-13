@@ -108,9 +108,9 @@ p {
 }
 .serviceBlock1,
 .serviceBlock2 {
-  background-color: beige;
+  background-color: #eef7fd;
   align-items: center;
-  height: 300px;
+  height: 350px;
   margin: 32px 0;
   padding: 32px 0;
   display: flex;
@@ -119,7 +119,13 @@ p {
 .dataServiceBlocks {
   background-color: white;
   margin: 0 16px;
-  height: 260px;
+  height: 280px;
+  margin: 16px;
+  padding: 16px;
+}
+
+.text-justify {
+  text-align: justify;
 }
 /*MOBILE*/
 
