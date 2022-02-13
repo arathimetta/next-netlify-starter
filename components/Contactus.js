@@ -7,7 +7,7 @@ export default function Contactus() {
     return (
         <div className="box-container" id="contactus">
             <h1 className="text-center">Contact Us</h1>
-            <img src='https://www.apexsystems.com/sites/default/files/media-images/ContactUs_Hero.jpg' />
+            <img src='https://www.apexsystems.com/sites/default/files/media-images/ContactUs_Hero.jpg' alt="banner" />
             <div className="margin32px">
                 <p>Feel Free to Contact us</p>
                 <input type="text" name="full_name" id="contact_full_name" placeholder="Full Name *" className="form-text required form-control" style={styles}></input>

@@ -1,35 +1,6 @@
 /* header start*/
 /* Style the navigation bar */
-.navbar {
-  top: 0;
-  position: fixed;
-  width: 100%;
-  background-color: black;
-  overflow: auto;
-}
 
-/* Navbar links */
-.navbar a {
-  float: left;
-  text-align: center;
-  padding: 12px 0px;
-  color: white;
-  text-decoration: none;
-  font-size: 17px;
-  width: 20%;
-}
-
-/* Navbar links on mouse-over */
-.navbar a:hover {
-  background-color: grey;
-}
-
-/* Current/active navbar link */
-/* In your html you change the body class and target it in here */
-/* This example uses the events icon which is a child 5 in the navigation */
-.events .navbar a:nth-child(5) {
-  background-color: #d6295a;
-}
 /* header end*/
 
 html,

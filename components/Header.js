@@ -27,13 +27,19 @@ export default function Header() {
   return (
     <>
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
-      <div className="navbar show-desktop">
-        <a className="active" href="#"><i className="fa fa-fw fa-home"></i><span> Home</span></a>
-        <a href="#aboutus"><i className="fa fa-fw fa-address-card"></i> <span> About Us</span></a>
-        <a href="#careers"><i className="fa fa-fw fa-user-md"></i><span> Careers</span></a>
-        <a href="#services"><i className="fa fa-fw fa-concierge-bell"></i> <span> Services</span></a>
-        <a href="#contactus"><i className="fa fa-fw fa-phone-laptop"></i><span> Contact Us</span></a>
-      </div>
+      <nav class="navbar navbar-inverse navbar-fixed-top show-desktop" style={{ fontFamily: '"Muller",sans-serif' }}>
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <a class="navbar-brand" href="#">TEKSERVS</a>
+          </div>
+          <ul class="nav navbar-nav" style={{ float: "right" }}>
+            <li class="active" ><a href="#" >Home</a></li>
+            <li><a href="#aboutus" >About Us</a></li>
+            <li><a href="#careers" >Careers</a></li>
+            <li><a href="#contactus" >Contact Us</a></li>
+          </ul>
+        </div>
+      </nav>
 
       <div className="show-mobile fullwidth">
         <MobileHeaderContact />
