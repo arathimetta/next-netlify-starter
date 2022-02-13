@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import MobileHeaderContact from "./MobileHeaderContact";
 
 
 export default function Header() {
@@ -35,6 +36,7 @@ export default function Header() {
       </div>
 
       <div className="show-mobile fullwidth">
+        <MobileHeaderContact />
         <div className="hamburgerIcon" style={style1}>
           <div onClick={openMenu}>
             <svg viewBox="0 0 100 80" width="25" height="25">
@@ -45,12 +47,12 @@ export default function Header() {
           </div>
           <p style={style2}><strong>TEKSERVS</strong></p>
         </div>
-        <div id="mobileHeader" className={style3} style={{ padding: "16px" }}>
-          <a className="active" href="#"><span> Home</span></a>
-          <a href="#aboutus"><span> About Us</span></a>
-          <a href="#careers"><span> Careers</span></a>
-          <a href="#services"><span> Services</span></a>
-          <a href="#contactus"><span> Contact Us</span></a>
+        <div id="mobileHeader" className={style3} style={{ padding: "16px", fontFamily: "'Merienda One', cursive" }}>
+          <a className="active" href="#" style={{ height: "24px" }}><span> Home</span></a>
+          <a href="#aboutus" style={{ height: "24px" }}><span> About Us</span></a>
+          <a href="#careers" style={{ height: "24px" }}><span> Careers</span></a>
+          <a href="#services" style={{ height: "24px" }}><span> Services</span></a>
+          <a href="#contactus" style={{ height: "24px" }}><span> Contact Us</span></a>
         </div>
       </div>
     </>

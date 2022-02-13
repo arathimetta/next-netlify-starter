@@ -106,9 +106,23 @@ p {
 .displaynone {
   display: none;
 }
+.serviceBlock1,
+.serviceBlock2 {
+  background-color: beige;
+  align-items: center;
+  height: 300px;
+  margin: 32px 0;
+  padding: 32px 0;
+  display: flex;
+}
 /*MOBILE*/
 
 @media screen and (max-width: 640px) {
+  .serviceBlock1,
+  .serviceBlock2 {
+    height: auto !important;
+    display: block;
+  }
   .show-mobile {
     display: block;
   }
