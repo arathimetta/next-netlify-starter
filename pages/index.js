@@ -11,7 +11,6 @@ export default function Home() {
     <>
       <Head>
         <title>TEKSERVS</title>
-        <meta charset="utf-8" />
         <meta name="description" content="TEKSERVS" />
         <link rel="icon" href="/favicon.ico" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />

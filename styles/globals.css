@@ -24,6 +24,10 @@ main {
   align-items: center;
 }
 
+h1 {
+  color: #0095d3;
+}
+
 code {
   background: #fafafa;
   border-radius: 5px;
@@ -82,8 +86,8 @@ p {
   background-color: #eef7fd;
   align-items: center;
   height: 350px;
-  margin: 32px 0;
-  padding: 32px 0;
+  margin: 0;
+  padding: 1px 0;
   display: flex;
 }
 
