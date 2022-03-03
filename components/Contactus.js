@@ -12,7 +12,7 @@ export default function Contactus() {
     // }
     const sendEmail = (e) => {
         e.preventDefault();
-        emailjs.sendForm('service_6zqd6xl', 'template_dcf1urm', e.target, 'nPOCECiSLmM5i3Qls')
+        emailjs.sendForm('service_wcfc8ls', 'template_pd3xe8n', e.target, 'WcMD_bpnrmAFTGkWD')
             .then((result) => {
                 console.log(result.text);
             }, (error) => {
@@ -42,8 +42,8 @@ export default function Contactus() {
                             <p>Feel Free to Contact us</p>
                             <form onSubmit={sendEmail}>
                                 <input type="text" name="full_name" id="contact_full_name" placeholder="Full Name*" className="form-text required form-control" style={styles} required></input>
-                                <input type="text" name="phone_number" id="contact_phone_number" placeholder="Phone Number*" className="form-text required form-control" style={styles} required></input>
-                                <input type="text" name="email" id="contact_email" placeholder="Email*" className="form-text required form-control" style={styles} required></input>
+                                <input type="number" name="phone_number" id="contact_phone_number" placeholder="Phone Number*" className="form-text required form-control" style={styles} required></input>
+                                <input type="email" name="email" id="contact_email" placeholder="Email*" className="form-text required form-control" style={styles} required></input>
                                 <textarea id="contact_message" name="message" rows="5" cols="60" placeholder="Message*" className="form-textarea form-control resize-vertical" style={styles} required></textarea>
                                 <Button variant="contained" type="submit">Submit</Button>
                             </form>
