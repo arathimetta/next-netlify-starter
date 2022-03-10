@@ -42,7 +42,6 @@ export default function Header() {
       </nav>
 
       <div className="show-mobile fullwidth">
-        <MobileHeaderContact />
         <div className="hamburgerIcon" style={style1}>
           <div onClick={openMenu}>
             <svg viewBox="0 0 100 80" width="25" height="25">
