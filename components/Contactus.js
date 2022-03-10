@@ -26,7 +26,7 @@ export default function Contactus() {
 
             <div className="box-container" id="contactus">
                 <h1 className="text-center">Contact Us</h1>
-                <img src='https://www.apexsystems.com/sites/default/files/media-images/ContactUs_Hero.jpg' alt="banner" />
+                <img src='/contact_us.jpg' alt="banner" />
 
                 {formSubmitted ? <>
                     <div className="box-container" id="contactus">

@@ -97,6 +97,10 @@ p {
   height: 280px;
   margin: 16px;
   padding: 16px;
+  border-radius: 4rem 0.3rem 6rem 0.3rem;
+}
+.greenText {
+  color: #64a500;
 }
 
 .text-justify {
