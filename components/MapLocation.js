@@ -17,7 +17,7 @@ class MapLocation extends Component {
                     containerStyle={containerStyle}
                     google={this.props.google}
                     zoom={10}
-                    style={{ width: "400px", height: "400px", position: 'relative !important' }}
+                    style={{ width: "100%", height: "400px", position: 'relative !important' }}
                     initialCenter={{
                         lat: 33.064620,
                         lng: -96.829950
@@ -32,7 +32,10 @@ class MapLocation extends Component {
                     Our Offiice:
                 </p>
                 <p>
-                    6010 W Spring Creek Pkwy, Ste.216, Plano, TX-75024
+                    6010 W Spring Creek Pkwy, Ste.216,
+                </p>
+                <p>
+                    Plano, TX-75024
                 </p>
             </div>
         );
