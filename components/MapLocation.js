@@ -34,11 +34,8 @@ class MapLocation extends Component {
                     Our Offiice:
                 </p>
                 <a onClick={() => window.open("https://maps.google.com?q=" + lat + ',' + lng)}>
-                    <p >
-                        6010 W Spring Creek Pkwy, Ste.216,
-                    </p>
-                    <p>
-                        Plano, TX-75024
+                    <p style={{ width: "300px" }}>
+                        6010 W Spring Creek Pkwy, Ste.216, Plano, TX-75024
                     </p>
                 </a>
             </div>
