@@ -123,4 +123,8 @@ p {
   main {
     padding: 0 0 5rem 0;
   }
+  .contactusform {
+    width: 80%;
+    margin-left: 48px;
+  }
 }

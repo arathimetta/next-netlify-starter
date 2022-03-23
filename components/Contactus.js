@@ -30,7 +30,7 @@ export default function Contactus() {
                 <img src='/contact_us.jpg' alt="banner" />
 
                 {formSubmitted ? <>
-                    <div className="box-container" id="contactus">
+                    <div className="box-container contactusform" id="contactus-thankyou">
                         <div className="margin32px text-center">
                             <h2 style={{ color: '#0095d3' }}>THANKS FOR REACHING OUT</h2>
                             <h4>We'll be in touch soon.</h4>
@@ -40,7 +40,7 @@ export default function Contactus() {
                     </div>
                 </> :
                     <>
-                        <div className="margin32px">
+                        <div className="margin32px contactusform">
                             <p>Feel Free to Contact us</p>
                             <form onSubmit={sendEmail}>
                                 <input type="text" name="full_name" id="contact_full_name" placeholder="Full Name*" className="form-text required form-control" style={styles} required></input>
