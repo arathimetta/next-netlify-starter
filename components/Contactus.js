@@ -1,6 +1,7 @@
 import Button from '@mui/material/Button';
 import emailjs from '@emailjs/browser';
 import { useState } from 'react';
+import MapLocation from './MapLocation';
 
 export default function Contactus() {
     const styles = {
@@ -34,6 +35,7 @@ export default function Contactus() {
                             <h2 style={{ color: '#0095d3' }}>THANKS FOR REACHING OUT</h2>
                             <h4>We'll be in touch soon.</h4>
                             {/* <Button variant="contained" onClick={showContactusForm}>Submit</Button> */}
+                            <MapLocation />
                         </div>
                     </div>
                 </> :
@@ -47,6 +49,8 @@ export default function Contactus() {
                                 <textarea id="contact_message" name="message" rows="5" cols="60" placeholder="Message*" className="form-textarea form-control resize-vertical" style={styles} required></textarea>
                                 <Button variant="contained" type="submit">Submit</Button>
                             </form>
+
+                            <MapLocation />
                         </div>
                     </>
                 }
